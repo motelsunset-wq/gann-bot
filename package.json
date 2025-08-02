@@ -1,14 +1,16 @@
 {
-  "name": "gann-bot",
+  "name": "gannbot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-"scripts": {
-  "start": "node index.js"
-}
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "node-fetch": "^3.3.2"
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7"
   }
 }
